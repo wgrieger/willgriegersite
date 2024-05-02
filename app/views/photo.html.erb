@@ -19,18 +19,15 @@ align-items: center;
 
 .photos {
   background-color: lightgrey ;
-  display: flex;
-  flex-direction:column;
-  align-items:center;
-  flex-basis: auto;
+  display: flex column;
+  width: 800px;
   padding: 20px;
   gap: 20px;
   
 }
 .portraits {
- gap:20px;
- /*height:700px;*/
-display:inline-flex;
+gap:20px;
+display:flex wrap;
 background-color:cyan;
 justify-content:center;
 align-items:center;
@@ -39,33 +36,35 @@ align-items:center;
 }
 .tree_and_kettle {
   display:flex;
+  flex-direction: column;
   gap:20px;
  
-background-color: ;
+background-color: orange;
 align-items:center;
 justify-content: center;
 }
 .rail{
   display:flex;
   gap:20px;
-  
-background-color: ;
+   flex-direction:column;
+background-color: yellow;
 align-items:center;
 justify-content: center;
 }
 .bw_water_photos{
   display:flex;
   gap:20px;
- 
-background-color: ;
+  flex-direction:column;
+background-color: pink;
 align-items:center;
 justify-content: center;
 }
 .colorful{
     display:flex;
+    flex-direction:column;
   gap:20px;
-  
-background-color: ;
+  flex-shrink:3;
+background-color: red ;
 align-items:center;
 justify-content: center;
 }
@@ -76,38 +75,38 @@ justify-content: center;
 <div class=photos>
 <div class="portraits">
   <!--coco-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/38895028951/" title="Portrait"><img src="https://live.staticflickr.com/4515/38895028951_e06064155e_c.jpg" width="571" height="800" alt="Portrait"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/38895028951/" title="Portrait"><img src="https://live.staticflickr.com/4515/38895028951_e06064155e_c.jpg" width="375"  alt="Portrait"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   <!--david-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/51835844292/in/album-72157675826010581/" title="David One E"><img src="https://live.staticflickr.com/65535/51835844292_78c93c2ea2_c.jpg" width="571" height="800" alt="David One E"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/51835844292/in/album-72157675826010581/" title="David One E"><img src="https://live.staticflickr.com/65535/51835844292_78c93c2ea2_c.jpg" width="375" alt="David One E"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   <!-- claire-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/51009267893/in/album-72157675826010581/" title="CL"><img src="https://live.staticflickr.com/65535/51009267893_207175f072_c.jpg" width="533" height="800" alt="CL"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/51009267893/in/album-72157675826010581/" title="CL"><img src="https://live.staticflickr.com/65535/51009267893_207175f072_c.jpg" width="375" alt="CL"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 <div class="tree_and_kettle">
   <!--devils-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/50317478116/" title="Devils Kettle"><img src="https://live.staticflickr.com/65535/50317478116_9603be9c3c_c.jpg" width="533" height="800" alt="Devils Kettle"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/50317478116/" title="Devils Kettle"><img src="https://live.staticflickr.com/65535/50317478116_9603be9c3c_c.jpg" width="375"  alt="Devils Kettle"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   <!--tree-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52197670950/in/datetaken-public/" title="I feel alone"><img src="https://live.staticflickr.com/65535/52197670950_7e77a2cc08_c.jpg" width="533" height="800" alt="I feel alone"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52197670950/in/datetaken-public/" title="I feel alone"><img src="https://live.staticflickr.com/65535/52197670950_7e77a2cc08_c.jpg" width="375"  alt="I feel alone"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   <!-- Johnson-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52197675725/in/datetaken-public/" title="DSC01760 (2)"><img src="https://live.staticflickr.com/65535/52197675725_9b6459bf57_c.jpg" width="533" height="800" alt="DSC01760 (2)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52197675725/in/datetaken-public/" title="DSC01760 (2)"><img src="https://live.staticflickr.com/65535/52197675725_9b6459bf57_c.jpg" width="375"  alt="DSC01760 (2)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 <div class="rail">
   <!--rail-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/53139503166/in/datetaken-public/" title="The Rail Yard"><img src="https://live.staticflickr.com/65535/53139503166_c3e0fbd6a0_c.jpg" width="800" height="533" alt="The Rail Yard"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/53139503166/in/datetaken-public/" title="The Rail Yard"><img src="https://live.staticflickr.com/65535/53139503166_c3e0fbd6a0_c.jpg" width="375"  alt="The Rail Yard"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   <!-- stars-->
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/50964161853/" title="Astro"><img src="https://live.staticflickr.com/65535/50964161853_5d6e7a0df2_c.jpg" width="800" height="533" alt="Astro"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/50964161853/" title="Astro"><img src="https://live.staticflickr.com/65535/50964161853_5d6e7a0df2_c.jpg" width="375"  alt="Astro"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 <div class="bw_water_photos">
 <!--BW water-->
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52317446072/in/album-72157673495124603/" title="DSC02009"><img src="https://live.staticflickr.com/65535/52317446072_1bd58f2b07_c.jpg" width="800" height="450" alt="DSC02009"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52317446072/in/album-72157673495124603/" title="DSC02009"><img src="https://live.staticflickr.com/65535/52317446072_1bd58f2b07_c.jpg" width="375" alt="DSC02009"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <!--split rock -->
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52317446437/in/album-72157673495273873/" title="DSC01947"><img src="https://live.staticflickr.com/65535/52317446437_cf5d599f1c_c.jpg" width="800" height="600" alt="DSC01947"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/52317446437/in/album-72157673495273873/" title="DSC01947"><img src="https://live.staticflickr.com/65535/52317446437_cf5d599f1c_c.jpg" width="375"  alt="DSC01947"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 <div class="colorful">
   <!--pink beach-->
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/51477452203/in/datetaken-public/" title="DSC00844 CLR"><img src="https://live.staticflickr.com/65535/51477452203_9ecd29a3a7_c.jpg" width="800" height="600" alt="DSC00844 CLR"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/51477452203/in/datetaken-public/" title="DSC00844 CLR"><img src="https://live.staticflickr.com/65535/51477452203_9ecd29a3a7_c.jpg" width="375"  alt="DSC00844 CLR"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   <!--colorful boats-->
 
-  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/31386711656/in/album-72157673495273873/" title="DSC08548"><img src="https://live.staticflickr.com/5327/31386711656_fdeede3a32_c.jpg" width="800" height="530" alt="DSC08548"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/willyg_/31386711656/in/album-72157673495273873/" title="DSC08548"><img src="https://live.staticflickr.com/5327/31386711656_fdeede3a32_c.jpg" width="375"alt="DSC08548"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
 </div>
 
