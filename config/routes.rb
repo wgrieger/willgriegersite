@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get("/about", {:controller => "basic", :action=> "about"})
 
-  get("/photography", {:controller=> "basic", :action=> "photo"})
+  get("/photos", {:controller=> "basic", :action=> "photo"})
 
   get("/wood", {:controller=> "basic", :action=> "wood"})
 
