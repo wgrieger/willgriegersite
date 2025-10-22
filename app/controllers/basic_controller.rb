@@ -14,7 +14,7 @@ class BasicController < ApplicationController
 
  def about
         render({:template => "about"})
-        end 
+    end 
 
   def other
      render({:template => "other"})
