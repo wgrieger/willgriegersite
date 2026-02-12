@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get("/other", {:controller=> "basic", :action=> "other"})
 
+  get("/book", {:controller=> "basic", :action=> "book"})
+
   # Defines the root path route ("/")
   # root "articles#index"
 end

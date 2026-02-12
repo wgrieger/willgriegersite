@@ -19,4 +19,8 @@ class BasicController < ApplicationController
   def other
      render({:template => "other"})
   end 
+
+  def book
+    redirect_to('https://tidycal.com/willgrieger/30-minute-meeting')
+  end 
 end 
